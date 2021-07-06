@@ -25,16 +25,16 @@ body {
 	width: 100vw;
 	height: 100vh;
 	opacity: 0;
-	background: #9c9c9c70;
+	background: #9c9c9cc2;
 	animation: loader 4s ease-out forwards;
 	z-index: 0;
 }
 
 .square {
-	background: linear-gradient(to top, #9356dc, #ff79da);
+	background: linear-gradient(to top, #83a697b7, #fafafa);
 	width: 5rem;
 	height: 5rem;
-	animation: square 4s 1 linear;
+	animation: square 5s 1 linear;
 	z-index: 0;
 }
 
@@ -64,29 +64,51 @@ body {
 }
 
 .picture {
+	float: right;
+	border-radius: 20%;
+	width: 18%;
+	shape-outside: circle();
+	margin: 1rem;
+}
+
+.picture1 {
 	margin: auto;
 	object-fit: cover;
-	border-radius: 2rem;
-	width: 40%;
+	border-radius: 4rem;
+	width: 85%;
+	padding: 1rem 0rem;
 }
 
 .intro {
-	text-align: center;
-	padding: 2rem;
-	background-color: rgba(255, 182, 193, 0.452);
+	padding: 1rem;
+	background-color: #fafafa;
+}
+
+.container {
+	position: absolute;
+	background-color: #fafafa;
+	margin-left: -1rem;
 }
 
 .introtitle {
-	padding-bottom: 1rem;
+	padding: 1rem 0rem;
+	text-align: center;
 }
 
 .introtext {
-	padding-top: 1rem;
+	padding: 2rem 1rem;
 }
+
+section {
+	padding-top: 16rem;
+	padding-bottom: 1.5rem;
+	background-color: rgba(245, 222, 179, 0.205);
+}
+
 /* Footer du site*/
 .footer {
 	padding: 2rem;
-	background-color: #83a697;
+	background-color: #83a697b7;
 }
 
 .footertitle {
