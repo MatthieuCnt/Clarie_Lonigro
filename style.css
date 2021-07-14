@@ -79,6 +79,13 @@ body {
 	padding: 1rem 0rem;
 }
 
+.picturemodule {
+	margin: auto;
+	object-fit: cover;
+	width: 85%;
+	padding: 1rem 0rem;
+}
+
 .intro {
 	padding: 1rem;
 	background-color: #fafafa;
@@ -105,6 +112,15 @@ section {
 	background-color: rgba(245, 222, 179, 0.205);
 }
 
+.modulesection {
+	padding-top: 4rem;
+	padding-bottom: 1.5rem;
+	background-color: rgba(245, 222, 179, 0.205);
+}
+
+.styleprojet {
+	width: 100%;
+}
 /* Footer du site*/
 .footer {
 	padding: 2rem;
