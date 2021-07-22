@@ -1,0 +1,39 @@
+.picture1 {
+	width: 30%;
+}
+
+.introtext {
+	font-size: 2rem;
+	padding: 2rem 8rem;
+}
+
+.introtext1 {
+	font-size: 2rem;
+	padding: 0rem 15rem 5rem 15rem;
+}
+
+.introtitle {
+	font-size: 2.5rem;
+	padding-top: 3rem;
+}
+
+.picture {
+	width: 10%;
+	margin-right: 12rem;
+}
+
+section {
+	padding-top: 28rem;
+}
+
+.footer {
+	font-size: 2rem;
+}
+
+.footerul {
+	font-size: 2rem;
+}
+
+.footertitle {
+	font-size: 2.2rem;
+}

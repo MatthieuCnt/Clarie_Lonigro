@@ -1,0 +1,14 @@
+.introtext {
+	text-align: center;
+	width: 80%;
+}
+
+section {
+	padding-top: 22rem;
+	padding-bottom: 1.5rem;
+	background-color: #edfdfd96;
+}
+
+.picture {
+	width: 15%;
+}
